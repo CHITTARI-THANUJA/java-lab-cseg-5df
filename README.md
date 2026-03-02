@@ -156,6 +156,37 @@ class Student{
 ```
 ## Output:
 ![Output for 2c](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/2c.png)
+## Additional Experiment 2
+```
+import java.util.Scanner;
+
+class InsertSubstring {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Main String: ");
+        String mainString = sc.nextLine();
+
+        System.out.print("Enter Sub String: ");
+        String subString = sc.nextLine();
+
+        System.out.print("Enter Position: ");
+        int position = sc.nextInt();
+
+        if (position < 0 || position > mainString.length()) {
+            System.out.println("Invalid Position!");
+        } else {
+            String firstPart = mainString.substring(0, position);
+            String secondPart = mainString.substring(position);
+            String result = firstPart + subString + secondPart;
+
+            System.out.println("Resultant String: " + result);
+        }
+
+        sc.close();
+    }
+}
+```
 ## Experiment 3
 ## Title 3a(Implement Constructor Overloading):
 ```
@@ -441,6 +472,104 @@ public class TestFigure {
 ```
 ## Output:
 ![Output for 4c](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/4c.png)
+## Aditional Experiment 1
+```
+import java.util.Scanner;
+
+class InsertSubstring {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter Main String: ");
+        String mainString = sc.nextLine();
+
+        System.out.print("Enter Sub String: ");
+        String subString = sc.nextLine();
+
+        System.out.print("Enter Position: ");
+        int position = sc.nextInt();
+
+        if (position < 0 || position > mainString.length()) {
+            System.out.println("Invalid Position!");
+        } else {
+            String firstPart = mainString.substring(0, position);
+            String secondPart = mainString.substring(position);
+            String result = firstPart + subString + secondPart;
+
+            System.out.println("Resultant String: " + result);
+        }
+
+        sc.close();
+    }
+}
+```
+## Output:
+![Output for Additional Experiment 1]
+## Additional Experiment 3
+```
+import java.util.Scanner;
+
+class PalindromeCheck {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a String: ");
+        String str = sc.nextLine();
+
+        int start = 0;
+        int end = str.length() - 1;
+        boolean isPalindrome = true;
+
+        while (start < end) {
+            if (str.charAt(start) != str.charAt(end)) {
+                isPalindrome = false;
+                break;
+            }
+            start++;
+            end--;
+        }
+
+        if (isPalindrome)
+            System.out.println("The string is a Palindrome.");
+        else
+            System.out.println("The string is NOT a Palindrome.");
+
+        sc.close();
+    }
+}
+```
+## Output:
+![Output for Additional Experiment 3]
+## Additional Experiment 4
+```
+import java.util.Scanner;
+
+class PerfectNumber {
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter a Number: ");
+        int num = sc.nextInt();
+
+        int sum = 0;
+
+        for (int i = 1; i <= num / 2; i++) {
+            if (num % i == 0) {
+                sum += i;
+            }
+        }
+
+        if (sum == num)
+            System.out.println(num + " is a Perfect Number.");
+        else
+            System.out.println(num + " is NOT a Perfect Number.");
+
+        sc.close();
+    }
+}
+```
+## Output:
+![Output for Adiitional Experiment 4]
 ## Experiment 5
 ## Title 5a(Implement Interface):
 ```
