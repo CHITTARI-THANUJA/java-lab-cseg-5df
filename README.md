@@ -1,6 +1,7 @@
 # java-lab-cseg-5df
 experiments
-## Title:1a
+## Experiment 1
+## Title:1a(Implementation of Default Primitive Datatype)
 ```
 class DefaultPrimitiveType {
     byte primbyte;
@@ -26,3 +27,57 @@ class DefaultPrimitiveType {
 ```
 ## output:
 ![Output for 1a](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/a09a7bd8ca22bd8703eb6629eb5508db9314efe5/1a.png)
+
+## Title:1b(Implementation of Quadratic Equation)
+```
+import java.util.Scanner;
+
+public class QuadraticEquationSolution {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter value of a: ");
+        double a = sc.nextDouble();
+
+        System.out.print("Enter value of b: ");
+        double b = sc.nextDouble();
+
+        System.out.print("Enter value of c: ");
+        double c = sc.nextDouble();
+
+        double D = b * b - 4 * a * c;   // Discriminant
+
+        if (D > 0) {
+            System.out.println("Roots are real and distinct");
+
+            double root1 = (-b + Math.sqrt(D)) / (2 * a);
+            double root2 = (-b - Math.sqrt(D)) / (2 * a);
+
+            System.out.println("Root 1 = " + root1);
+            System.out.println("Root 2 = " + root2);
+
+        } else if (D == 0) {
+            System.out.println("Roots are real and equal");
+
+            double root = -b / (2 * a);
+            System.out.println("Root = " + root);
+
+        } else {
+            System.out.println("Roots are complex");
+
+            double realPart = -b / (2 * a);
+            double imaginaryPart = Math.sqrt(-D) / (2 * a);
+
+            System.out.println("Root 1 = " + realPart + " + " + imaginaryPart + "i");
+            System.out.println("Root 2 = " + realPart + " - " + imaginaryPart + "i");
+        }
+
+        sc.close();
+    }
+}
+```
+## Output:
+![Output for 1b]
+## Experiment 2
