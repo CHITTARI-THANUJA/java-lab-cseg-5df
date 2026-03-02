@@ -79,7 +79,7 @@ public class QuadraticEquationSolution {
 }
 ```
 ## Output:
-![Output for 1b]
+![Output for 1b](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/652b7e1c8134feb0718080b0124e4969990b20a2/1b.png)
 ## Experiment 2
 ## Title 2a:(Implement class Mechanism):
 ```
