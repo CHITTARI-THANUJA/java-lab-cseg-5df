@@ -160,27 +160,65 @@ class Student{
 ```
 import java.util.Scanner;
 
-class InsertSubstring {
-    public static void main(String args[]) {
+class Fibonacci {
+
+    int firstnumber;
+    int secondnumber;
+    int thirdnumber;
+    int sum;
+    int sizeOfFibsequence;
+
+    // Constructor
+    Fibonacci(int size) {
+        firstnumber = 0;
+        secondnumber = 1;
+        thirdnumber = 0;
+        sum = 0;
+        sizeOfFibsequence = size;
+    }
+
+    void generateFibsequence() {
+
+        while (sizeOfFibsequence > 0) {
+
+            if (sizeOfFibsequence == 1)
+                System.out.print(firstnumber + ".");
+            else
+                System.out.print(firstnumber + ", ");
+
+            sizeOfFibsequence--;
+
+            sum += firstnumber;
+
+            thirdnumber = firstnumber + secondnumber;
+            firstnumber = secondnumber;
+            secondnumber = thirdnumber;
+        }
+    }
+
+    int getFibsum() {
+        return sum;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        System.out.print("Enter size of FibSequence: ");
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter Main String: ");
-        String mainString = sc.nextLine();
+        int size = sc.nextInt();
 
-        System.out.print("Enter Sub String: ");
-        String subString = sc.nextLine();
+        if (size > 0) {
 
-        System.out.print("Enter Position: ");
-        int position = sc.nextInt();
+            Fibonacci fib = new Fibonacci(size);
 
-        if (position < 0 || position > mainString.length()) {
-            System.out.println("Invalid Position!");
+            System.out.println("\nFibonacci Series are:");
+            fib.generateFibsequence();
+
+            System.out.println("\nThe sum of Fibonacci Series: " + fib.getFibsum());
         } else {
-            String firstPart = mainString.substring(0, position);
-            String secondPart = mainString.substring(position);
-            String result = firstPart + subString + secondPart;
-
-            System.out.println("Resultant String: " + result);
+            System.out.println("Fibonacci Sequence & sum cannot be calculated");
         }
 
         sc.close();
