@@ -26,7 +26,7 @@ class DefaultPrimitiveType {
 }
 ```
 ## output:
-![Output for 1a]()
+![Output for 1a](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/9dc3d2805e45b352b8553890a19e59ea6e9786f1/1a.png)
 
 ## Title:1b(Implementation of Quadratic Equation)
 ```
