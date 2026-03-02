@@ -225,6 +225,8 @@ public class Main {
     }
 }
 ```
+## Output:
+![Output for Additional Experiment 2](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/b2297a6e9dde4434c41f5386136ee27699bb0238/additional_2.jpg)
 ## Experiment 3
 ## Title 3a(Implement Constructor Overloading):
 ```
@@ -542,7 +544,7 @@ class InsertSubstring {
 }
 ```
 ## Output:
-![Output for Additional Experiment 1]
+![Output for Additional Experiment 1](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/b2297a6e9dde4434c41f5386136ee27699bb0238/additional_1.jpg)
 ## Additional Experiment 3
 ```
 import java.util.Scanner;
@@ -577,7 +579,7 @@ class PalindromeCheck {
 }
 ```
 ## Output:
-![Output for Additional Experiment 3]
+![Output for Additional Experiment 3](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/b2297a6e9dde4434c41f5386136ee27699bb0238/additional_3.jpg)
 ## Additional Experiment 4
 ```
 import java.util.Scanner;
@@ -607,7 +609,7 @@ class PerfectNumber {
 }
 ```
 ## Output:
-![Output for Adiitional Experiment 4]
+![Output for Adiitional Experiment 4](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/b2297a6e9dde4434c41f5386136ee27699bb0238/additional_4.jpg)
 ## Experiment 5
 ## Title 5a(Implement Interface):
 ```
