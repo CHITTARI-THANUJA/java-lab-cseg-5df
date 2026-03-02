@@ -395,7 +395,7 @@ public class TestVehicle {
 }
 ```
 ## output:
-![Output for 4c]
+![Output for 4b]
 ## Title 4c(Implement Abstract classes):
 ```
 abstract class Figure {
@@ -793,8 +793,8 @@ public class ThreadDemo {
 ## Output:
 ![Output for 7c]
 ## Experiment 8
-
-## Title 
+## Title 8a (Implement Daemaon Threads):
+```
 
 
 
