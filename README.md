@@ -104,7 +104,7 @@ public class Main{
 }
 ```
 ## Output:
-![Output for 2a]
+![Output for 2a](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/2a.png)
 ## Title 2b(Implement Method Overloading):
 ```
 class Sum{
@@ -131,7 +131,7 @@ class Main{
 }
 ```
 ## Output:
-![Output for 2b]
+![Output for 2b](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/2b.png)
 ## Title 2c(Implement Constructor):
 ```
 class Student{
@@ -155,7 +155,7 @@ class Student{
 }
 ```
 ## Output:
-![Output for 2c]
+![Output for 2c](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/2c.png)
 ## Experiment 3
 ## Title 3a(Implement Constructor Overloading):
 ```
@@ -193,7 +193,7 @@ class Student {
 }
 ```
 ## Output:
-![Output for 3a]
+![Output for 3a](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/3a.png)
 ## Title 3b(Implement Binary Search Mechanism):
 ```
 class BinarySearch {
@@ -260,7 +260,7 @@ public class Main {
 }
 ```
 ## Output:
-![Output for 3b]
+![Output for 3b](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/3b.png)
 ## Title 3c(Implement Bubble sort):
 ```
 class BubbleSort {
@@ -303,7 +303,7 @@ public static void main(String[] args) {
 }
 ```
 ## Output:
-![Output for 3c]
+![Output for 3c](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/3c.png)
 ## Experiment 4
 ## Title 4a(Implement Single Inheritence):
 ```
@@ -350,7 +350,7 @@ public class TestEmployee {
 }
 ```
 ## output:
-![Output for 4a]
+![Output for 4a](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/4a.png)
 ## Title 4b(Implement Multilevel Inheritance):
 ```
 class Bicycle {
@@ -395,7 +395,7 @@ public class TestVehicle {
 }
 ```
 ## output:
-![Output for 4b]
+![Output for 4b](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/4b.png)
 ## Title 4c(Implement Abstract classes):
 ```
 abstract class Figure {
@@ -440,7 +440,7 @@ public class TestFigure {
 }
 ```
 ## Output:
-![Output for 4c]
+![Output for 4c](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/4c.png)
 ## Experiment 5
 ## Title 5a(Implement Interface):
 ```
@@ -502,7 +502,7 @@ class TestSort{
 }
 ```
 ## Output:
-![Output for 5a]
+![Output for 5a](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/5a.png)
 ## Title 5b(Implement Runtime Polymorphism):
 ```
 class TestVehicle{
@@ -533,7 +533,7 @@ class Bike extends Vehicle{
 }
 ```
 ## Output:
-![Output for 5b]
+![Output for 5b](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/5b.png)
 ## Title 5c(Implement String Buffer):
 ```
 class DeleteChar{
@@ -548,7 +548,7 @@ class DeleteChar{
 }
 ```
 ## Output:
-![Output for 5c]
+![Output for 5c](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/5c.png)
 ## Experiment 6
 ## Title 6a(Implement Exception Handling Mechanism):
 ```
@@ -581,7 +581,7 @@ class ArrayIndexExceptionDemo {
 }
 ```
 ## Output:
-![Output for 6a]
+![Output for 6a](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/6a.jpg)
 ## Title 6b(Implement Multiple Catch Clause):
 ```
 import java.util.Scanner;
@@ -621,7 +621,7 @@ class MultipleCatchDemo {
 }
 ```
 ## Output:
-![Output for 6b]
+![Output for 6b](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/6b.jpg)
 ## Title for 6c (Implement Bult-in Exception):
 ```
 import java.util.Scanner;
@@ -657,7 +657,7 @@ class BuiltInException {
 }
 ```
 ## Output:
-![Output for 6c]
+![Output for 6c](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/6c.jpg)
 ## Experiment 7
 ## Title 7a(Implement User Defined Exception):
 ```
@@ -694,7 +694,7 @@ class UserRegion {
 }
 ```
 ## Output:
-![Output for 7a]
+![Output for 7a](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/7a.jpg)
 ## Title 7b(Implement Thread class):
 ```
 class GoodMorningThread extends Thread {
@@ -749,7 +749,7 @@ class TestThreads {
 }
 ```
 ## Output:
-![Output for 7b]
+![Output for 7b](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/7b.jpg)
 ## Title 7c(Implement Alive and join()]
 ```
 class LongRunningTask extends Thread {
@@ -791,7 +791,7 @@ public class ThreadDemo {
 }
 ```
 ## Output:
-![Output for 7c]
+![Output for 7c](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d6bd804e1170a464cb04a7ac16c5540cb931c7c8/7c.jpg)
 ## Experiment 8
 ## Title 8a (Implement Daemaon Threads):
 ```
