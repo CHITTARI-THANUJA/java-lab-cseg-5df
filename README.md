@@ -1003,7 +1003,7 @@ public class TestDaemon {
 }
 ```
 ## Output:
-![Output for 8a](
+![Output for 8a](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/71246de68bd20b86735edfecfcf2e7a6377d5eb3/8a.jpg)
 ## Title 8b(Implement Producer Consumer Problem):
 ```
 class SharedBuffer {
@@ -1098,7 +1098,7 @@ public class ProducerConsumerDemo {
 }
 ```
 ## Output:
-![Output for 8b](
+![Output for 8b](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/71246de68bd20b86735edfecfcf2e7a6377d5eb3/8b.jpg)
 
 
 
