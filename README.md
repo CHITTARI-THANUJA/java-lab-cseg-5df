@@ -1099,7 +1099,13 @@ public class ProducerConsumerDemo {
 ```
 ## Output:
 ![Output for 8b](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/71246de68bd20b86735edfecfcf2e7a6377d5eb3/8b.jpg)
+## Title 8c(Implement User Defined Package):
+```
 
+```
+## Output:
+![Output for 8c]
+##
 
 
 
