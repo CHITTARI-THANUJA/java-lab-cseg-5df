@@ -1101,10 +1101,29 @@ public class ProducerConsumerDemo {
 ![Output for 8b](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/71246de68bd20b86735edfecfcf2e7a6377d5eb3/8b.jpg)
 ## Title 8c(Implement User Defined Package):
 ```
+package arithmetic;
 
+public class ArithmeticOperation {
+
+    public int add(int x, int y) {
+        return x + y;
+    }
+
+    public int subtraction(int x, int y) {
+        return x - y;
+    }
+
+    public int multiplication(int x, int y) {
+        return x * y;
+    }
+
+    public int division(int x, int y) {
+        return x / y;
+    }
+}
 ```
 ## Output:
-![Output for 8c]
+![Output for 8c](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d2cd5dd8f03c3a3fe28fd6865aaae4c89b63bf86/8c.jpg)
 ##
 
 
