@@ -1145,7 +1145,83 @@ class Calculate {
 ```
 ## Output:
 ![Output for 8c](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d2cd5dd8f03c3a3fe28fd6865aaae4c89b63bf86/8c.jpg)
-##
+## Adiitional Experiment 5:
+```
+import java.util.Scanner;
+
+class Cricket
+{
+    String playerName;
+    String teamName;
+    double battingAverage;
+    Cricket(String playerName, String teamName, double battingAverage)
+    {
+        this.playerName = playerName;
+        this.teamName = teamName;
+        this.battingAverage = battingAverage;
+    }
+    void display()
+    {
+        System.out.println("Player: " + playerName + ", Batting Average: " + battingAverage);
+    }
+
+    public static void main(String[] args)
+    {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Number of players: ");
+        int n = sc.nextInt();
+        sc.nextLine();
+        Cricket players[] = new Cricket[n];
+        for(int i = 0; i < n; i++)
+        {
+            System.out.println("Player " + (i+1));
+
+            System.out.print("Name: ");
+            String playerName = sc.nextLine();
+
+            System.out.print("Team: ");
+            String teamName = sc.nextLine();
+
+            System.out.print("Batting Average: ");
+            double battingAverage = sc.nextDouble();
+            sc.nextLine();
+
+            players[i] = new Cricket(playerName, teamName, battingAverage);
+        }
+        for(int i = 0; i < n; i++)
+        {
+            boolean printed = false;
+
+            // check if team already printed
+            for(int j = 0; j < i; j++)
+            {
+                if(players[i].teamName.equals(players[j].teamName))
+                {
+                    printed = true;
+                    break;
+                }
+            }
+
+            if(!printed)
+            {
+                System.out.println("Team: " + players[i].teamName);
+
+                for(int k = 0; k < n; k++)
+                {
+                    if(players[k].teamName.equals(players[i].teamName))
+                    {
+                        players[k].display();
+                    }
+                }
+            }
+        }
+
+        sc.close();
+    }
+}
+```
+## Output:
+![Output for Additional Experiment 5](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/47c44eeb6bcdcef820b34e81db0994b4c179e059/additional_5.jpg)
 
 
 
