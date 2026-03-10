@@ -1222,7 +1222,75 @@ class Cricket
 ```
 ## Output:
 ![Output for Additional Experiment 5](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/47c44eeb6bcdcef820b34e81db0994b4c179e059/additional_5.jpg)
+## Experiment 11:
+## Title 11(Train Reservation System):
+```
+class Reservation {
+    int available;
 
+    Reservation(int available) {
+        this.available = available;
+    }
 
+    public synchronized void reserve(String name, int required) {
+
+        System.out.println("\n" + name + " is trying to reserve " + required + " berth(s).");
+
+        if (required <= available) {
+            System.out.println("Available berths: " + available);
+            available = available - required;
+            System.out.println("Booking confirmed for " + name);
+            System.out.println("Ticket printed for " + name);
+        } else {
+            System.out.println("No berths available for " + name);
+        }
+
+        System.out.println("Remaining berths: " + available);
+    }
+}
+
+class Person extends Thread {
+    String name;
+    int required;
+    Reservation r;
+
+    Person(String name, int required, Reservation r) {
+        this.name = name;
+        this.required = required;
+        this.r = r;
+    }
+
+    public void run() {
+        r.reserve(name, required);
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        Reservation r = new Reservation(5);
+
+        Person p1 = new Person("Thanuja", 2, r);
+        Person p2 = new Person("Ravi", 2, r);
+        Person p3 = new Person("Sita", 2, r);
+
+        p1.start();
+        p2.start();
+        p3.start();
+
+        try {
+            p1.join();
+            p2.join();
+            p3.join();
+        } catch (InterruptedException e) {
+            System.out.println(e);
+        }
+
+        System.out.println("\nAll threads finished execution.");
+    }
+}
+```
+## Output:
+![Output for Additional Experiment 11](
 
 
