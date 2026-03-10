@@ -1291,6 +1291,6 @@ public class Main {
 }
 ```
 ## Output:
-![Output for Additional Experiment 11](
+![Output for Additional Experiment 11](https://github.com/CHITTARI-THANUJA/java-lab-cseg-5df/blob/d755bca14fd611e14875ec64215367856ad33558/11.jpg)
 
 
