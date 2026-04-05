@@ -14,14 +14,14 @@ class DefaultPrimitiveType {
     boolean primboolean;
     public static void main(String args[]) {
         DefaultPrimitiveType dDpt = new DefaultPrimitiveType();
-        System.out.println("default value of byte:" + dDpt.primbyte);
-        System.out.println("default value of short:" + dDpt.primshort);
-        System.out.println("default value of int:" + dDpt.primint);
-        System.out.println("default value of double:" + dDpt.primdouble);
-        System.out.println("default value of char:" + dDpt.primchar + " '");
-        System.out.println("default value of float:" + dDpt.primfloat);
-        System.out.println("default value of long:" + dDpt.primlong);
-        System.out.println("default value of boolean:" + dDpt.primboolean);
+        System.out.println("Default value of byte:" + dDpt.primbyte);
+        System.out.println("Default value of short:" + dDpt.primshort);
+        System.out.println("Default value of int:" + dDpt.primint);
+        System.out.println("Default value of double:" + dDpt.primdouble);
+        System.out.println("Default value of char:" + dDpt.primchar + " '");
+        System.out.println("Default value of float:" + dDpt.primfloat);
+        System.out.println("Default value of long:" + dDpt.primlong);
+        System.out.println("Default value of boolean:" + dDpt.primboolean);
     }
 }
 ```
